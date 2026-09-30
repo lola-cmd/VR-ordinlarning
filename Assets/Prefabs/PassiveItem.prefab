@@ -281,7 +281,7 @@ PrefabInstance:
       addedObject: {fileID: 6610211965121195266}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4f53dfcf20632794fbd1451aca666aea, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3247686233816349492}
+      addedObject: {fileID: -5797457253587140000}
   m_SourcePrefab: {fileID: 100100000, guid: 4f53dfcf20632794fbd1451aca666aea, type: 3}
 --- !u!4 &232218515864963190 stripped
 Transform:
@@ -568,7 +568,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &3247686233816349492
+--- !u!114 &-5797457253587140000
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -577,24 +577,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 608778895664485068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6087e238cd09441ab38436ca2dc58d8, type: 3}
+  m_Script: {fileID: 11500000, guid: a3e67d24cc9e0464885e17baac6406ae, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: '::'
-  mode: 0
-  holdSeconds: 3
-  videoClip: {fileID: 0}
-  videoPlayer: {fileID: 0}
-  videoScreen: {fileID: 0}
-  hideVideoWhenDone: 1
-  word: auma
-  wordSound: {fileID: 8300000, guid: e04520d5f6dc442b3a76b3bf0fcf73b4, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::PassiveScript
+  word: 
+  wordSound: {fileID: 0}
+  pauseBetweenWord: 1
   audioSource: {fileID: 0}
-  displayText: {fileID: 4124844372581417701}
-  resetIfReleasedEarly: 1
-  triggerOnlyOnce: 1
+  displayText: {fileID: 0}
   hideCubeIfModel: 1
   fitColliderToModel: 1
   colliderPadding: 0.01
-  onWordShown:
-    m_PersistentCalls:
-      m_Calls: []

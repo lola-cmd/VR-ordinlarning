@@ -208,7 +208,6 @@ GameObject:
   - component: {fileID: 76468559979601828}
   - component: {fileID: 2098510371778741342}
   - component: {fileID: 8031515032009155307}
-  - component: {fileID: 946908692514592574}
   m_Layer: 0
   m_Name: VideoScreen
   m_TagString: Untagged
@@ -309,7 +308,7 @@ VideoPlayer:
   m_DataSource: 0
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
+  m_AudioOutputMode: 0
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
@@ -324,20 +323,6 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
---- !u!114 &946908692514592574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1864316479560499492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1633f93d26dc494d8363cf39a3e0599, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FloatAbove
-  offset: {x: 0, y: 0.3, z: 0}
-  worldScale: {x: 2, y: 1.125, z: 1}
 --- !u!1 &2797040696307548281
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,7 +338,7 @@ GameObject:
   - component: {fileID: 8037377412098651410}
   - component: {fileID: 6103533579158608455}
   - component: {fileID: 8600371183368472602}
-  - component: {fileID: 4446440206099718364}
+  - component: {fileID: 1156332876836945861}
   m_Layer: 0
   m_Name: InteractiveItem
   m_TagString: Untagged
@@ -710,7 +695,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &4446440206099718364
+--- !u!114 &1156332876836945861
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -719,24 +704,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2797040696307548281}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6087e238cd09441ab38436ca2dc58d8, type: 3}
+  m_Script: {fileID: 11500000, guid: 1687521fe53154ac2b8a2045cc1231c4, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WordItem
-  mode: 1
-  holdSeconds: 3
-  videoClip: {fileID: 32900000, guid: 07d3a3575d651437485c0f83ac2e68b0, type: 3}
-  videoPlayer: {fileID: 8031515032009155307}
-  videoScreen: {fileID: 1864316479560499492}
-  hideVideoWhenDone: 1
-  word: huosiain
-  wordSound: {fileID: 8300000, guid: aa33befe193a44e1e8f1d75354b54311, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::InteractiveScript
+  word: 
+  wordSound: {fileID: 0}
   audioSource: {fileID: 8600371183368472602}
   displayText: {fileID: 7176893011647054074}
-  resetIfReleasedEarly: 1
-  triggerOnlyOnce: 1
-  hideCubeIfModel: 1
-  fitColliderToModel: 1
-  colliderPadding: 0.01
-  onWordShown:
-    m_PersistentCalls:
-      m_Calls: []
+  videoClip: {fileID: 0}
+  videoPlayer: {fileID: 8031515032009155307}
+  videoScreen: {fileID: 1864316479560499492}
