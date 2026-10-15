@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5111879676388443780}
   - component: {fileID: 8663610051597770300}
   - component: {fileID: 7176893011647054074}
-  - component: {fileID: 8374084652670866907}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -26,17 +25,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1411814316522045722}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8708265271043335753}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.283801, y: 4.5999966}
-  m_SizeDelta: {x: 20, y: 5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &8663610051597770300
 MeshRenderer:
@@ -182,20 +181,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 8663610051597770300}
   m_maskType: 0
---- !u!114 &8374084652670866907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1411814316522045722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1633f93d26dc494d8363cf39a3e0599, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FloatAbove
-  offset: {x: 0, y: 0.5, z: 0}
-  worldScale: {x: 0.1, y: 0.1, z: 0.1}
 --- !u!1 &1864316479560499492
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,7 +209,7 @@ Transform:
   m_GameObject: {fileID: 1864316479560499492}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -707,10 +692,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1687521fe53154ac2b8a2045cc1231c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractiveScript
-  word: 
   wordSound: {fileID: 0}
   audioSource: {fileID: 8600371183368472602}
+  pauseBetweenWord: 1
   displayText: {fileID: 7176893011647054074}
   videoClip: {fileID: 0}
   videoPlayer: {fileID: 8031515032009155307}
   videoScreen: {fileID: 1864316479560499492}
+  muteVideo: 1
+  screenDistance: 1.5
+  heightOffset: -0.2
+  screenSize: {x: 1.2, y: 0.675, z: 1}
+  resetIfReleasedEarly: 1
+  triggerOnlyOnce: 1
+  hideCubeIfModel: 1
+  fitColliderToModel: 1
+  colliderPadding: 0.01
+  onWordShown:
+    m_PersistentCalls:
+      m_Calls: []

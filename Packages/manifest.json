@@ -2,6 +2,7 @@
   "dependencies": {
     "com.unity.ai.assistant": "2.20.0-pre.1",
     "com.unity.ai.inference": "2.6.1",
+    "com.unity.feature.characters-animation": "1.0.0",
     "com.unity.feature.development": "1.0.2",
     "com.unity.ide.rider": "3.0.38",
     "com.unity.ide.visualstudio": "2.0.26",
@@ -11,6 +12,7 @@
     "com.unity.probuilder": "6.1.2",
     "com.unity.render-pipelines.universal": "17.6.0",
     "com.unity.shadergraph": "17.6.0",
+    "com.unity.ugui": "2.6.0",
     "com.unity.xr.androidxr-openxr": "1.4.0",
     "com.unity.xr.arfoundation": "6.6.2",
     "com.unity.xr.compositionlayers": "2.5.0",
