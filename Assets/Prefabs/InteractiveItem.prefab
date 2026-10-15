@@ -707,7 +707,7 @@ MonoBehaviour:
   triggerOnlyOnce: 1
   hideCubeIfModel: 1
   fitColliderToModel: 1
-  colliderPadding: 0.01
+  colliderPadding: 0.1
   onWordShown:
     m_PersistentCalls:
       m_Calls: []
