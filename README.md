@@ -12,12 +12,8 @@ This repository contains the source code for the VR program in "Functional motor
 
 ## Setup
 
-1. Clone the repository:
-   ```
-   git clone [repo URL]
-   ```
-2. Open the project in Unity Hub using Unity 6000.6.2f1.
-3. Import the third-party assets that are not included in this repository (see [Third-party assets](#third-party-assets)):
+1. Open the project in Unity Hub using Unity 6000.6.2f1.
+2. Import the third-party assets that are not included in this repository (see [Third-party assets](#third-party-assets)):
    - POLYGON – Starter Pack (Synty) from the Unity Asset Store
    - Unity Particle Pack from the Unity Asset Store
 
