@@ -1,4 +1,4 @@
-# [Project title]
+# VR program language learning 
 
 This repository contains the source code for the VR program in "Functional motor congruency and spatial context during second language vocabulary learning: an experimental VR design", 2026. The study builds on Rudling et al. (2026) and Rumetshofer et al. (2026).
 
