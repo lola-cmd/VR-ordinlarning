@@ -20,7 +20,6 @@ This repository contains the source code for the VR program in "Functional motor
 3. Import the third-party assets that are not included in this repository (see [Third-party assets](#third-party-assets)):
    - POLYGON – Starter Pack (Synty) from the Unity Asset Store
    - Unity Particle Pack from the Unity Asset Store
-4. Open the main scene: `[Assets/Scenes/SceneName.unity]`
 
 
 ## Third-party assets
